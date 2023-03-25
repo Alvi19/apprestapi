@@ -94,3 +94,7 @@ exports.login = function (req, res) {
     }
   });
 };
+
+exports.rahasia = function (req, res) {
+  response.ok("Halaman ini hanya untuk user dengan role = 2!", res);
+};
